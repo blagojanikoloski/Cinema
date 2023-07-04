@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>aspnet-CinemaApp.Web-CC53D229-594E-4464-82FF-5D9BA33FB266</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\Dimitar Kitanovski\.nuget\packages\nlog.config\4.7.14\contentFiles\any\any\NLog.config" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Carts\Create.cshtml" />
+    <None Include="Views\Carts\Delete.cshtml" />
+    <None Include="Views\Carts\Details.cshtml" />
+    <None Include="Views\Carts\Edit.cshtml" />
+    <None Include="Views\Checkout\Index.cshtml" />
+    <None Include="Views\MovieDates\s.cshtml" />
+    <None Include="Views\Movies\d.cshtml" />
+    <None Include="Views\Movies\Details.cshtml" />
+    <None Include="Views\Movies\e.cshtml" />
+    <None Include="Views\Movies\Index.cshtml" />
+    <None Include="Views\MyOrders\Index.cshtml" />
+    <None Include="Views\OrderDetails\Index.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.102.0" />
+    <PackageReference Include="ExcelDataReader" Version="3.6.0" />
+    <PackageReference Include="GemBox.Document" Version="35.0.1403" />
+    <PackageReference Include="MailKit" Version="3.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.20" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.20" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.20" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.21" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.21" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.21">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+    <PackageReference Include="NLog" Version="4.7.14" />
+    <PackageReference Include="NLog.Web.AspNetCore" Version="4.14.0" />
+    <PackageReference Include="Stripe.net" Version="39.110.0" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CinemaApp.Domain\CinemaApp.Domain.csproj" />
+    <ProjectReference Include="..\CinemaApp.Service\CinemaApp.Service.csproj" />
+  </ItemGroup>
+
+</Project>

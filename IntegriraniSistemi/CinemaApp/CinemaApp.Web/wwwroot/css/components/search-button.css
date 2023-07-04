@@ -1,0 +1,14 @@
+.search-button-container {
+  display: flex;
+  position: relative;
+}
+.search-button-button {
+  color: var(--dl-color-gray-white);
+  padding-top: var(--dl-space-space-halfunit);
+  border-color: #ffffff;
+  padding-left: var(--dl-space-space-doubleunit);
+  border-radius: 50px;
+  padding-right: var(--dl-space-space-doubleunit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  background-color: transparent;
+}

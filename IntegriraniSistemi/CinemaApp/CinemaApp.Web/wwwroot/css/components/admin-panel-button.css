@@ -1,0 +1,18 @@
+.admin-panel-button-container {
+  width: 400px;
+  height: 79px;
+  display: flex;
+  position: relative;
+}
+.admin-panel-button-button {
+  color: var(--dl-color-gray-white);
+  width: 408px;
+  border: none;
+  height: 77px;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-doubleunit);
+  border-radius: 50px;
+  padding-right: var(--dl-space-space-doubleunit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  background-color: var(--dl-color-primary-100);
+}
